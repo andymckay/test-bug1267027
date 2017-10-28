@@ -1,0 +1,13 @@
+{
+  "description": "Demonstrates bug https://bugzilla.mozilla.org/show_bug.cgi?id=1267027",
+  "manifest_version": 2,
+  "name": "CSP Test",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["cs.js"]
+    }
+  ]
+}
